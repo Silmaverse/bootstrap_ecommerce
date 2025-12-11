@@ -15,6 +15,10 @@
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- bootstrap css end -->
     <title>Document</title>
+</head>
+
+<body>
+
     <!-- navar start -->
     <nav class="navbar navbar-expand-lg  amrnavbar">
         <div class="container">
@@ -91,66 +95,68 @@
             PRODUCTS
         </h2>
         <div class="container">
-            <div id="carouselExample" class="carousel slide">
+            <div id="carouselExample" class="carousel slide" style="position: relative;">
                 <div class="carousel-inner ">
                     <!-- slide 1 -->
                     <div class="carousel-item active ">
                         <div class="all-product d-flex gap-4">
-                        <div class="product_card">
-                            <div class="image_card">
-                                <img src="images/Product_img.png" alt="product-err" />
+                            <div class="product_card">
+                                <div class="image_card">
+                                    <img src="images/Product_img.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
                             </div>
-                            <h2>Face Masks</h2>
-                        </div>
-                        <div class="product_card">
-                            <div class="image_card">
-                                <img src="images/Product_img 2.png" alt="prodct-err" />
+                            <div class="product_card">
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
                             </div>
-                            <h2>Body Spray</h2>
-                        </div>
-                        <div class="product_card">
+                            <div class="product_card">
 
-                            <div class="image_card">
-                                <img src="images/Product_img 3.png" alt="product-err" />
+                                <div class="image_card">
+                                    <img src="images/Product_img 3.png" alt="product-err" />
+                                </div>
+                                <h2>Sanitizer</h2>
                             </div>
-                            <h2>Sanitizer</h2>
-                        </div>
                         </div>
                     </div>
-                      <!-- slide 2 -->
+                    <!-- slide 2 -->
                     <div class="carousel-item ">
                         <div class="all-product d-flex gap-4">
-                        <div class="product_card">
-                            <div class="image_card">
-                                <img src="images/Product_img.png" alt="product-err" />
+                            <div class="product_card">
+                                <div class="image_card">
+                                    <img src="images/Product_img.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
                             </div>
-                            <h2>Face Masks</h2>
-                        </div>
-                        <div class="product_card">
-                            <div class="image_card">
-                                <img src="images/Product_img 2.png" alt="prodct-err" />
+                            <div class="product_card">
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
                             </div>
-                            <h2>Body Spray</h2>
-                        </div>
-                        <div class="product_card">
+                            <div class="product_card">
 
-                            <div class="image_card">
-                                <img src="images/Product_img 3.png" alt="product-err" />
+                                <div class="image_card">
+                                    <img src="images/Product_img 3.png" alt="product-err" />
+                                </div>
+                                <h2>Sanitizer</h2>
                             </div>
-                            <h2>Sanitizer</h2>
                         </div>
-                    </div>
                     </div>
                 </div>
 
                 <button class="carousel-control-prev prevcarosuel" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-prev-icon previcon" aria-hidden="true"><i
+                            class="fa-solid fa-angle-left"></i></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next nextcarosuel" type="button" data-bs-target="#carouselExample"
                     data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="carousel-control-next-icon nxtiocn" aria-hidden="true"><i
+                            class="fa-solid fa-angle-right"></i></span>
                     <span class="visually-hidden">Next</span>
                 </button>
             </div>
@@ -158,38 +164,181 @@
 
     </section>
     <!-- products section end -->
-</head>
+    <!-- weekly discound start -->
+    <section id="weekly_discount">
+        <div class="weekly_images">
+            <img src="images/weekly-bg.png" alt="err" />
+        </div>
+        <div class="container">
+            <div class="weekly-head">
+                <h2><span class="mac">MACC</span> WEEKLY DISCOUNT</h2>
+                <button type="button" class="btn btn-light">VIEW ALL</button>
+            </div>
+            <div id="carouselExample1" class="carousel slide "
+                style="position: relative; margin-top: 48px; ">
+                <div class="carousel-inner ">
+                    <!-- slide 1 -->
+                    <div class="carousel-item active ">
+                        <div class="all-product d-flex gap-4">
+                            <div class="product_card" style="position: relative;">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
+                                <div class="price">
+                                    <p>₹500</p>
+                                    <p>₹400</p>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
+                                <div class="price">
+                                    <p>₹400</p>
+                                    <p>₹250</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide 2 -->
+                    <div class="carousel-item ">
+                        <div class="all-product d-flex gap-4">
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 3.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
+                            </div>
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
+                            </div>
 
-<body>
+                        </div>
+                    </div>
 
 
 
+                </div>
+                <button class="carousel-control-next nextcarosuel" type="button" data-bs-target="#carouselExample1"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon nxtiocn" aria-hidden="true"><i
+                            class="fa-solid fa-angle-right"></i></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+
+            </div>
+        </div>
+
+    </section>
+    <!-- weekly discound end -->
+    <!-- top selling start -->
+    <section id="top">
+         <div class="top_images">
+            <img src="images/Feature_img1.png" alt="err" />
+        </div>
+        <div class="container">
+            <div class="top-head">
+                <h2><span class="mac">MACC</span> TOP SELLINGS</h2>
+                <button type="button" class="btn btn-light">VIEW ALL</button>
+            </div>
+            <div id="carouselExample2" class="carousel slide" style="position: relative; margin-top: 48px; ">
+                <div class="carousel-inner ">
+                    <!-- slide 1 -->
+                    <div class="carousel-item active ">
+                        <div class="all-product d-flex gap-4">
+                            <div class="product_card" style="position: relative;">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
+                                <div class="price">
+
+                                    <p>₹400</p>
+                                </div>
+                            </div>
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
+                                <div class="price">
+                                    <p>₹400</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- slide 2 -->
+                    <div class="carousel-item ">
+                        <div class="all-product d-flex gap-4">
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 3.png" alt="product-err" />
+                                </div>
+                                <h2>Face Masks</h2>
+                            </div>
+                            <div class="product_card">
+                                <div class="red">
+                                    <p>20% OFF</p>
+                                </div>
+                                <div class="image_card">
+                                    <img src="images/Product_img 2.png" alt="prodct-err" />
+                                </div>
+                                <h2>Body Spray</h2>
+                            </div>
+
+                        </div>
+                    </div>
 
 
 
+                </div>
+                <button class="carousel-control-prev prevcarosuel" type="button" data-bs-target="#carouselExample2"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon previcon" aria-hidden="true"><i
+                            class="fa-solid fa-angle-left"></i></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+
+            </div>
+        </div>
+      
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    </section>
+    <!-- top selling end -->
 
 
 
     <!-- bootstrap js start -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
-        crossorigin="anonymous"></script>
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous">
+    </script>
     <!-- bootstrap js end -->
 </body>
 

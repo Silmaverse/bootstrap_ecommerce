@@ -20,6 +20,8 @@ ul,li{
 :root{
     --main-font: "Poppins", sans-serif;
     --secondary-font: "Montserrat", sans-serif;
+    --brand-color:#E2342D;
+    --secondary-color:#4A4B4D;
 }
 
 /* common css end */
@@ -109,7 +111,7 @@ ul,li{
     margin-bottom: 36px;
 }
 #products  .produts-span{
-    color: #E2342D;
+    color: var(--brand-color);
 }
 .image_card{
     width: 390px;
@@ -126,4 +128,201 @@ ul,li{
     font-family: var(--main-font);
     font-weight: 500;
 }
+#products .prevcarosuel{
+    height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%) ;
+    left:-2%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#products .prevcarosuel .previcon{
+    font-size: 21px !important;
+    color: var(--secondary-color) !important;
+}
+#products .nextcarosuel {
+   height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%) ;
+    right:4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#products .nextcarosuel .nxtiocn{
+    font-size: 21px !important;
+    color: var(--secondary-color) !important;
+}
 /* products css end */
+/* discount css start */
+#weekly_discount {
+    margin-top: 100px;
+    position: relative;
+}
+#weekly_discount .weekly_images{
+    width: 570px;
+    height: 672px;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: 1;
+}
+#weekly_discount .nextcarosuel{
+   height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%) ;
+    right:-4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+#weekly_discount .nextcarosuel .nxtiocn{
+    font-size: 21px !important;
+    color: var(--secondary-color) !important;
+}
+.weekly-head{
+    display: flex;
+    gap: 78px;
+    float: right;
+}
+.weekly-head h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+}
+.weekly-head .mac{
+    color: var(--brand-color);
+}
+.weekly-head button{
+    width: 124px;
+    height: 40px;
+    font-size: 16px;
+    font-size: var(--secondary-font);
+    font-weight: normal;
+    color: var(--secondary-color);
+
+}
+.price {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: var(--main-font);
+    width: 98px;
+    margin: 0 auto;
+
+}
+.red{
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    width: 141px;
+    height: 31px;
+    background-color: var(--brand-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+/* discount css end */
+/* top selling start */
+#top {
+    margin-top: 100px;
+    position: relative;
+}
+
+#top .top_images{
+    width: 570px;
+    height: 672px;
+    position: absolute;
+    right:0px;
+    
+}
+
+#top .prevcarosuel{
+   height: 64px;
+    width: 64px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 50%;
+    transform:translateY(-50%) ;
+    left:-4%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    
+}
+#top .prevcarosuel .previcon{
+    font-size: 21px !important;
+    color: var(--secondary-color) !important;
+}
+.top-head{
+    display: flex;
+    gap: 78px;
+    float: left;
+}
+.top-head h2{
+    font-size: 36px;
+    font-weight: 700;
+    font-family: var(--main-font);
+    color: var(--secondary-color);
+}
+.top-head .mac{
+    color: var(--brand-color);
+}
+.top-head button{
+    width: 124px;
+    height: 40px;
+    font-size: 16px;
+    font-size: var(--secondary-font);
+    font-weight: normal;
+    color: var(--secondary-color);
+
+}
+.price {
+    display: flex;
+    gap: 9px;
+    align-items: center;
+    font-size: 16px;
+    font-weight: normal;
+    font-family: var(--main-font);
+    width: 98px;
+    margin: 0 auto;
+
+}
+.red{
+    font-size: 16px;
+    font-family: var(--secondary-font);
+    font-weight: 500;
+    width: 141px;
+    height: 31px;
+    background-color: var(--brand-color);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+}
+
+/* top selling end */
