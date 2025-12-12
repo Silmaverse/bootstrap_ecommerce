@@ -26,7 +26,7 @@ ul,li{
 
 /* common css end */
 
-/* navbae css start */
+/* navbar css start */
 .formbar .srch{
     color: #222222;
     opacity: 70%;
@@ -55,7 +55,7 @@ ul,li{
     background: transparent;
     
 }
-/* navbae css end */
+/* navba css end */
 
 /* banner css start */
 #banner{
@@ -68,8 +68,11 @@ ul,li{
     justify-content: space-between;
     align-items: center;
 }
+.banner_row  .left_part{
+  width: 578px;
+}
 .banner_row h1{
-    width: 578px;
+    
     color: #3A408C;
     font-family:var(--main-font);
     font-size: 54px;
@@ -77,7 +80,7 @@ ul,li{
 
 }
 .banner_row p{
-    width: 578px;
+    width: 100%;
     color: #707070;
     font-size: 20px;
     font-family:var(--secondary-font);
@@ -95,6 +98,9 @@ ul,li{
     font-size: 20px;
     font-weight: bold;
     font-family: var(--main-font);
+}
+.banner_row .right_part{
+    width: 500px;
 }
 
 /* banner css end */
@@ -166,6 +172,17 @@ ul,li{
     margin-top: 100px;
     position: relative;
 }
+#weekly_discount .container{
+    position: relative;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+.slider{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 500px;
+}
 #weekly_discount .weekly_images{
     width: 570px;
     height: 672px;
@@ -193,7 +210,7 @@ ul,li{
 .weekly-head{
     display: flex;
     gap: 78px;
-    float: right;
+    margin-left: 500px;
 }
 .weekly-head h2{
     font-size: 36px;
@@ -223,6 +240,9 @@ ul,li{
     width: 98px;
     margin: 0 auto;
 
+}
+.product_card{
+    position: relative;
 }
 .red{
     font-size: 16px;
@@ -254,7 +274,12 @@ ul,li{
     height: 672px;
     position: absolute;
     right:0px;
+    z-index: 1;
     
+}
+.slider2{
+    margin-top:48px;
+
 }
 
 #top .prevcarosuel{
@@ -273,10 +298,10 @@ ul,li{
     font-size: 21px !important;
     color: var(--secondary-color) !important;
 }
-.top-head{
+#top .top-head{
     display: flex;
     gap: 78px;
-    float: left;
+    align-items: center;
 }
 .top-head h2{
     font-size: 36px;
@@ -326,3 +351,81 @@ ul,li{
 }
 
 /* top selling end */
+
+/* covid-19 guidelines css start */
+#covid-19{
+    margin-top: 88px;
+}
+#covid-19 .heading-with-para{
+    font-size: 42px;
+    font-family: var(--main-font);
+    font-weight: 700;
+    color: #231F20;
+    text-align: center;
+}
+#covid-19 .covid{
+    color: var(--brand-color);
+}
+#covid-19 .heading-with-para p{
+    width: 650px;
+    color: #222222;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-weight:300;
+    margin: 0 auto;
+}
+
+/* covid-19 guidelines css end */
+/* footer css start */
+#foot{
+    margin-top: 44px;
+    padding: 100px 0px;
+}
+#foot .footer-row{
+    display: flex;
+    justify-content: space-between;
+}
+#foot .first-row ul li{
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 18px;
+}
+#foot .second-row ul li{
+  font-family: var(--secondary-font);
+  font-weight: 400;
+  font-size: 18px;
+}
+.last-row .para p{
+    width: 428px;
+    font-size: 18px;
+    font-family: var(--secondary-font);
+    font-weight:400;
+    color: #222222;
+}
+.last-row .email{
+    margin-top: 48px;
+    margin-bottom: 31px;
+    width: 400px;
+    border-bottom: 1px solid #222222;
+    padding: 14px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.last-row .email input{
+    border: none;
+    outline: none;
+}
+.last-row .email  .envelop{
+    font-size: 27px;
+    color: #231F20;
+}
+.bottom-row{
+    margin-top: 74px;
+    text-align: center;
+}
+.bottom-row p{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: var(--secondary-font);
+}
+/* footer css end */

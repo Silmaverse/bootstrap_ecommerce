@@ -1,0 +1,133 @@
+/* extra small device start */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .navitem {
+    gap: 18px !important;
+  }
+  .navitem li {
+    font-size: 14px !important;
+  }
+  .nav-logo {
+    width: 96px;
+  }
+  .nav-icon {
+    margin-top: 10px;
+    gap: 18px !important;
+  }
+  .banner_row .left_part {
+    width: 100%;
+  }
+  .banner_row h1 {
+    font-size: 30px;
+  }
+  .banner_row p {
+    width: 100%;
+    font-size: 16px;
+  }
+  .banner_row {
+    flex-wrap: wrap;
+  }
+  .banner_row .left_part .lern_more {
+    margin-top: 14px;
+    width: 200px;
+    height: 46px;
+    font-size: 16px;
+  }
+  .banner_row .right_part {
+    width: 100%;
+    margin-top: 28px;
+  }
+
+  #products .products_head {
+    font-size: 28px;
+  }
+  .prslide {
+    width: 100%;
+  }
+  .image_card {
+    width: 100%;
+    height: fit-content;
+    padding: 16px 16px;
+  }
+  .image_card img {
+    height: 70px;
+  }
+  #products .nextcarosuel {
+    height: 30px;
+    width: 30px;
+    top: 36%;
+    right: -4%;
+  }
+  #products .prevcarosuel {
+    height: 30px;
+    width: 30px;
+    top: 36%;
+    left: -4%;
+  }
+  #products .nextcarosuel .nxtiocn {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  #products .prevcarosuel .previcon {
+    font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .product_card h2 {
+    margin-top: 14px;
+    font-size: 12px;
+  }
+  #weekly_discount .weekly_images {
+    width: 100%;
+  }
+  .weekly-head {
+    margin-left: 0px;
+    gap: 47px;
+  }
+
+  .slider {
+    margin-left: 0px;
+  }
+  #weekly_discount {
+    display: flex;
+  }
+  #weekly_discount .container {
+    margin-top: 394px;
+  }
+  .weekly-head h2 {
+    font-size: 20px;
+    font-weight: 300;
+  }
+  .weekly-head button {
+    width: 170px;
+    height: 36px;
+    font-size: 13px;
+  }
+  .red {
+    font-size: 12px;
+    width: 78px;
+    height: 22px;
+  }
+  .price {
+    justify-content: center;
+    font-size: 10px;
+    width: 100%;
+  }
+#weekly_discount .nextcarosuel {
+	height:30px;
+	width: 30px;
+	top: 32%;
+}
+  #weekly_discount .nextcarosuel .nxtiocn {
+	font-size: 14px !important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+}
+
+/* extra small device end */

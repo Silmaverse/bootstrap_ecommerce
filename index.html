@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,6 +13,9 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
     <!-- bootstrap css end -->
+     <!-- responsive css start -->
+      <link rel="stylesheet" href="css/responsive.css" />
+      <!-- responsive css end -->
     <title>Document</title>
 </head>
 
@@ -32,7 +34,7 @@
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
                 <ul class="navbar-nav m-auto mb-2 mb-lg-0  navitem">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">SHOP</a>
@@ -44,7 +46,7 @@
                         <a class="nav-link" href="#">ESSENTIALS</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#"><img src="images/Macc Essentials.png" /></a>
+                        <a class="nav-link nav-logo" href="#"><img src="images/Macc Essentials.png" /></a>
                     </li>
 
                     <li class="nav-item">
@@ -54,7 +56,7 @@
 
                 </ul>
 
-                <ul class="nav-icon">
+                <ul class="nav-icon navbar-nav ">
                     <li><a><i class="fa-regular fa-user"></i></a></li>
                     <li><button><i class="fa-regular fa-bell"></i></button></li>
                     <li><button><i class="fa-solid fa-basket-shopping"></i></button></li>
@@ -95,7 +97,7 @@
             PRODUCTS
         </h2>
         <div class="container">
-            <div id="carouselExample" class="carousel slide" style="position: relative;">
+            <div id="carouselExample" class="carousel slide prslide" style="position: relative;">
                 <div class="carousel-inner ">
                     <!-- slide 1 -->
                     <div class="carousel-item active ">
@@ -174,13 +176,16 @@
                 <h2><span class="mac">MACC</span> WEEKLY DISCOUNT</h2>
                 <button type="button" class="btn btn-light">VIEW ALL</button>
             </div>
+            <div class="slider" >
+
+           
             <div id="carouselExample1" class="carousel slide "
-                style="position: relative; margin-top: 48px; ">
+                style="position: relative; margin-top: 60px; ">
                 <div class="carousel-inner ">
                     <!-- slide 1 -->
                     <div class="carousel-item active ">
                         <div class="all-product d-flex gap-4">
-                            <div class="product_card" style="position: relative;">
+                            <div class="product_card" >
                                 <div class="red">
                                     <p>20% OFF</p>
                                 </div>
@@ -193,7 +198,7 @@
                                     <p>₹400</p>
                                 </div>
                             </div>
-                            <div class="product_card">
+                            <div class="product_card" >
                                 <div class="red">
                                     <p>20% OFF</p>
                                 </div>
@@ -218,7 +223,7 @@
                                 <div class="image_card">
                                     <img src="images/Product_img 3.png" alt="product-err" />
                                 </div>
-                                <h2>Face Masks</h2>
+                                <h2>Sanitizer</h2>
                             </div>
                             <div class="product_card">
                                 <div class="red">
@@ -244,6 +249,7 @@
                 </button>
 
             </div>
+             </div>
         </div>
 
     </section>
@@ -258,12 +264,14 @@
                 <h2><span class="mac">MACC</span> TOP SELLINGS</h2>
                 <button type="button" class="btn btn-light">VIEW ALL</button>
             </div>
-            <div id="carouselExample2" class="carousel slide" style="position: relative; margin-top: 48px; ">
-                <div class="carousel-inner ">
+            <div class="slider2">
+           
+            <div id="carouselExample2" class="carousel slide"">
+                <div class="carousel-inner">
                     <!-- slide 1 -->
                     <div class="carousel-item active ">
                         <div class="all-product d-flex gap-4">
-                            <div class="product_card" style="position: relative;">
+                            <div class="product_card" >
                                 <div class="red">
                                     <p>20% OFF</p>
                                 </div>
@@ -326,12 +334,68 @@
                 </button>
 
             </div>
+                 
+            </div>
         </div>
       
 
 
     </section>
     <!-- top selling end -->
+    <!-- covid guidelines start -->
+     <section id="covid-19">
+        <div class="container">
+            <div class="heading-with-para">
+
+                <h2> <span class="covid">COVID-19</span> GUIDELINES</h2>
+                <p>Please remember to adhere all covid-19 guidelines. Precaution is key to survive this pandemic. Stay at home and Stay safe. </p>
+            </div>
+        </div>
+
+     </section>
+    <!-- covid guidelines end -->
+    <!-- footer css start -->
+     <footer id="foot">
+        <div class="container">
+            <div class="footer-row">
+                <div class="foot-logo">
+                    <img src="images/Macc Essentials.png" alt="mac-erro" />
+                </div>
+                <div class="first-row">
+                    <ul>
+                        <li>Home</li>
+                        <li>Collection</li>
+                        <li>Products</li>
+                    </ul>
+                </div>
+                <div class="second-row">
+                    <ul>
+                        <li>About</li>
+                        <li>Contact</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+                <div class="last-row">
+                    <div class="para">
+                        <p>Be the first to know about our biggest and best sales. We'll never send more than one email a month.</p>
+                    </div>
+                    <div class="email">
+                        <input type="email" placeholder="ENTER YOUR EMAIL" />
+                        <i class="fa-regular fa-envelope envelop"></i>
+                    </div>
+                </div>
+           
+
+
+            </div>
+                 <div class="bottom-row">
+                    <p>All rights are reserved</p>
+                </div>
+        </div>
+
+
+     </footer>
+    <!-- footer css end -->
 
 
 
